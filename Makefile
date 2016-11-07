@@ -9,7 +9,7 @@ LIB_SRCS = crex.c firfilter.c
 LIB_OBJS = $(LIB_SRCS:.c=.o)
 LIB_A = libcrex.a
 
-CFLAGS += -I. -DPACKAGE_VERSION=\"1.0.0\"
+CFLAGS += -I. -DPACKAGE_VERSION=\"1.0.1\"
 
 all: static
 
